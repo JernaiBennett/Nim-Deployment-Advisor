@@ -1,0 +1,10 @@
+{
+  "gpus": [
+    {"name": "L4", "vram_gb": 24, "notes": "Entry-level inference, no NVLink"},
+    {"name": "L40S", "vram_gb": 48, "notes": "Inference-optimized, GDDR6, no NVLink"},
+    {"name": "A100-40GB", "vram_gb": 40, "notes": "HBM2e, NVLink capable"},
+    {"name": "A100-80GB", "vram_gb": 80, "notes": "HBM2e, most common data-center card, NVLink capable"},
+    {"name": "H100-80GB", "vram_gb": 80, "notes": "HBM3, high bandwidth, NVLink capable"},
+    {"name": "H200", "vram_gb": 141, "notes": "HBM3e, largest single-GPU memory currently common"}
+  ]
+}
